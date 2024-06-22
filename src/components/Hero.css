@@ -1,0 +1,39 @@
+#main_hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 50px;
+    margin: auto;
+    height: calc(100vh - 80px);
+}
+
+#hero_text {
+    font-family: "Poppins", sans-serif;
+}
+
+#hero_text h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+#hero_text p {
+    font-weight: 600;
+    color: grey;
+    font-size: 15px;
+    width: 60%;
+}
+
+#hero_text button {
+    margin: 30px 0;
+    margin-right: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}

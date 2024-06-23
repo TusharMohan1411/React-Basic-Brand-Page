@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
+import OurProuducts from "./components/Our Products/OurProducts";
 
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <>
       <Navigation />
       <Hero />
+      <OurProuducts />
     </>
   )
 }

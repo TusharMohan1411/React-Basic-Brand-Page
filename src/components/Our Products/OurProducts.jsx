@@ -11,7 +11,6 @@ export default function OurProuducts() {
                     {PRODUCTS_LIST.map((products) => (
                         <ProductCard key={products.name} {...products} />
                     ))}
-
                 </div>
             </section>
         </>
